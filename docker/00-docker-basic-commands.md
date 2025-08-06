@@ -1,6 +1,7 @@
 # Docker Basic Commands
 **Learn essential Docker commands for container management and operations.**
 [LINK](https://studio.kodekloud.com/labs/docker/docker_basiccommands)
+1H APROX - 06/08/2025
 
 ## Exercises
 ### What is the version of Docker Server Engine running on the Host?
