@@ -1,7 +1,7 @@
 # Docker Images
 **Understand Docker images, building custom images, and image management.**
 
-1.25H - [LINK](https://studio.kodekloud.com/labs/docker/docker_images)
+1.25H - [LINK](https://studio.kodekloud.com/labs/docker/docker_images) - 08/08/2025
 
 ## Exercises
 ### How many `images` are available on this host?
