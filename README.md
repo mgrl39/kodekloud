@@ -69,3 +69,9 @@ Si estás buscando **entrar y destacar**, yo haría esto en el próximo mes:
 * (Opcional) **DevOps Pre-Requisites**
 
 Luego, si entras, haces Terraform y Kubernetes poco a poco ya desde dentro.
+----
+# Docker
+- [x] 000 Docker Basic Commands
+- [x] 001 Docker Run
+- [x] 002 Docker Environment Variables
+- [x] 003 Docker Images
