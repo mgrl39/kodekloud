@@ -331,6 +331,7 @@ cc041ec95516122a8576c1a003768920bfde791ef6fe841b1d9ba6a3d1700d98
 Here i did it wrong, i tried to change the Dockerfile-ubuntu to change it to sleep, later tried to enter to the terminal with docker run -it --entrypoint /bin/bash but no, i used the Hint...
 
 ```bash
+~ ➜  docker container ls -a
 CONTAINER ID   IMAGE           COMMAND        CREATED              STATUS                     PORTS     NAMES
 cc041ec95516   ubuntu          "sleep 1000"   About a minute ago   Up About a minute                    reverent_fermat
 ```
