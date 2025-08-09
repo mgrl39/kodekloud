@@ -3,6 +3,8 @@
 
 [LINK](https://studio.kodekloud.com/labs/linux/linux-rpm-yum) - 09/08/2025 - 20minutes
 
+## Exercises 
+
 **This is a hands-on lab to work on RPM and YUM.**
 **Since Bob's laptop is running `Ubuntu`, Dave has oofered one of his lab machines that runs `Centos 9`**
 
@@ -19,7 +21,7 @@ bob@centos-lab's password:
 [bob@centos-lab ~]$ 
 ```
 
-## Which of the following package managers would you use on this machine `(centos-lab)`?
+### Which of the following package managers would you use on this machine `(centos-lab)`?
 **To access the `centos-lab` server, run `ssh centos-lab` and `Bob's` default password is:
 `caleston123`**
 
@@ -47,7 +49,7 @@ rpm: /usr/bin/rpm /usr/lib/rpm /etc/rpm /usr/share/man/man8/rpm.8.gz
 ```
 In this case -> `yum,rpm`
 
-## Use an `rpm` command to find out the exact package name for `wget` installed in this server `(centos-lab)`.
+### Use an `rpm` command to find out the exact package name for `wget` installed in this server `(centos-lab)`.
 
 ```bash
 [bob@centos-lab ~]$ rpm -q --whatprovides wget
@@ -72,13 +74,13 @@ error: Failed dependencies:
 [bob@centos-lab ~]$ 
 ```
 
-### What the installataion successful?
+#### What the installataion successful?
 In this case -> `NO`
 
-### What did it fail?
+#### What did it fail?
 In this case -> `Dependencies not met`
 
-## Let's use YUM to install `firefox` on the `centos-lab` server.
+### Let's use YUM to install `firefox` on the `centos-lab` server.
 
 ```bash
 [bob@centos-lab ~]$ yum install
@@ -154,7 +156,7 @@ Complete!
 [bob@centos-lab ~]$ 
 ```
 
-## How many `software repositories` are configured for `YUM` in the `centos-lab` server?
+### How many `software repositories` are configured for `YUM` in the `centos-lab` server?
 ```bash
 [bob@centos-lab ~]$ yum repolist
 repo id                        repo name
@@ -168,7 +170,7 @@ extras-common                  CentOS Stream 9 - Extras packages
 ```
 I found the answer [here](https://docs.redhat.com/es/documentation/red_hat_enterprise_linux/8/html/configuring_basic_system_settings/listing-repositories-with-yum_searching-for-software-packages)
 
-## Which package provides the `tcpdump` command on the `centos-lab`?
+### Which package provides the `tcpdump` command on the `centos-lab`?
 ```bash
 [bob@centos-lab ~]$ yum whatprovides tcpdump
 CentOS Stream 9 - BaseOS                                                       2.1 MB/s | 8.8 MB     00:04    
