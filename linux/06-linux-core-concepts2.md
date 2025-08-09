@@ -9,7 +9,7 @@
 In such cases, run `sudo` before the command**
 
 **Example: `sudo ls /root`**
-**Bob's password is `caaleston123`**
+**Bob's password is `caleston123`**
 
 ### What is the `init process` used by this system?
 ```
